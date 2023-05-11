@@ -3,7 +3,7 @@ body{
     min-height:100vh;
     transition: 1s;
     display: flex;
-    background-image: url("file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Message%20Generator/images/fantasy-2049567_1920.jpg");
+    background-image: url("./images/fantasy-2049567_1920.jpg");
     align-items: center;
     justify-content: center;
 
@@ -17,7 +17,7 @@ body{
     align-items: center;
     padding: 25px;
     box-shadow: 0 10px 10px rgba(250, 250, 244, 0.6);
-    background-image: url("file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Message%20Generator/images/wood-1963988_1920.jpg");
+    background-image: url("./images/wood-1963988_1920.jpg");
  }
  .fa-quote-left, .fa-quote-right {
     font-size: 35px;
