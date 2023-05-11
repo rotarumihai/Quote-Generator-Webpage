@@ -1,0 +1,58 @@
+
+body{
+    min-height:100vh;
+    transition: 1s;
+    display: flex;
+    background-image: url("file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Message%20Generator/images/fantasy-2049567_1920.jpg");
+    align-items: center;
+    justify-content: center;
+
+ }
+ .boxSize {
+    margin: 1px;
+    border-radius: 8px;
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    box-shadow: 0 10px 10px rgba(250, 250, 244, 0.6);
+    background-image: url("file:///D:/Back%20up%20Mihai/Projects%20Codecademy/Message%20Generator/images/wood-1963988_1920.jpg");
+ }
+ .fa-quote-left, .fa-quote-right {
+    font-size: 35px;
+    color: darkorchid;
+ }
+ .QuoteText {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive;
+ }
+ .author {
+    margin:10px;
+    text-align: right;
+    font-size: 40px;
+    font-style: italic;
+    font-family: cursive;
+    color: yellow;
+ }
+ .QuoteBtn {
+    width: 100%;
+    display: flex;
+    margin-top:10px;
+ }
+ .GenerateQuote_next {
+    font-size:18px;
+    border-radius: 5px;
+    cursor:pointer;
+    padding: 10px;
+    margin-top: 5px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: rgb(10, 10, 10);
+ }
+ .GenerateQuote_next:hover {
+    background-color: gray;
+    color:black;
+ }
